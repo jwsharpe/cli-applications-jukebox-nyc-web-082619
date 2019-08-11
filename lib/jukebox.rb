@@ -33,6 +33,6 @@ def play(songs)
   songs = songs.find
 end
 
-def end
+def exit_jukebox
  
 puts say_hello(users_name)
