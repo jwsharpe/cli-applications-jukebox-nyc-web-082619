@@ -38,5 +38,8 @@ end
 
 def run(songs)
   while(true) do
-    
+    input = enter_command
+    if(input = "help")
+      help
+    else
   
