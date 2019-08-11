@@ -11,9 +11,9 @@ def help
   puts "- exit : exits this program"
 end
 
-def list(list)
-  for i in list.length
-    puts "#{i+1}. #{list[i]}"
+def list(songs)
+  for i in songs.length
+    puts "#{i+1}. #{songs[i]}"
   end
 end
 
