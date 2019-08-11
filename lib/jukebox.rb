@@ -31,9 +31,8 @@ def play(songs)
   end;
   
   songs = songs.find
-  
-  
-puts "Enter your name:"
-users_name = gets.strip
+end
+
+def end
  
 puts say_hello(users_name)
