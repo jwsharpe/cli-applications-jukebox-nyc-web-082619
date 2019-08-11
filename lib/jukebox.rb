@@ -27,7 +27,7 @@ def play(songs)
     song = songs[input.to_i-1]
   end
   if(!song)
-    puts "Please enter a valid song"
+    puts "Invalid input, please try again"
     return
   end
     
