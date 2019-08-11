@@ -29,12 +29,12 @@ def play(songs)
   else
     song = songs[input-1]
   end
-  
   puts "Playing #{song}"
 end
 
 def exit_jukebox
   puts "Goodbye!"
 end
- 
-puts say_hello(users_name)
+
+def run(songs)
+  
