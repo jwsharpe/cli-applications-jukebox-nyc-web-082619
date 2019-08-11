@@ -4,7 +4,7 @@ def enter_command
 end
 
 def help_command
-  puts ""
+  puts "I accept the following commands:"
 
  
 puts "Enter your name:"
