@@ -36,6 +36,10 @@ def exit_jukebox
   puts "Goodbye!"
 end
 
+def invalid
+  puts "Invalid command, try again:"
+end
+
 def run(songs)
   while(true) do
     input = enter_command
@@ -43,5 +47,14 @@ def run(songs)
       help
     elsif(input == "list")
       list(songs)
-    elsif(input == "")
+    elsif(input == "play")
+      play(songs)
+    elsif(input == "exit")
+      exit_jukebox
+      return
+    else
+      invalid
+    end
+  end
+end
   
