@@ -12,7 +12,7 @@ def help
 end
 
 def list(songs)
-  for i in songs.length
+  for i in songs.length-1
     puts "#{i+1}. #{songs[i]}"
   end
 end
