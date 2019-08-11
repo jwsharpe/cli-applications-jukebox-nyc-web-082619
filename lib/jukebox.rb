@@ -23,7 +23,7 @@ def play(songs)
   i = songs.index(input)
   if(i)
     song = songs[i]
-  elsif(input.to_i-1 > 0)
+  elsif(input.to_i-1 >= 0)
     song = songs[input.to_i-1]
   end
   if(!song)
