@@ -17,7 +17,9 @@ def list(songs)
   end
 end
 
-def play()
+def play(songs)
+  puts ""
+  
 puts "Enter your name:"
 users_name = gets.strip
  
