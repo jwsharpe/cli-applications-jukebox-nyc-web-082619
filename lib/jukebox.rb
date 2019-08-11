@@ -1,5 +1,6 @@
-def greeting
+def enter_command
   puts "Please enter a command:"
+  gets.strip
 end
 
 
