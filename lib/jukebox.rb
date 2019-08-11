@@ -3,6 +3,8 @@ def enter_command
   gets.strip
 end
 
+def help_command
+  puts ""
 
  
 puts "Enter your name:"
