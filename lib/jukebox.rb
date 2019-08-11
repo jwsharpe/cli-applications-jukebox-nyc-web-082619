@@ -28,9 +28,9 @@ def play(songs)
     end
   else
     song = songs[input]
-  end;
+  end
   
-  songs = songs.find
+  puts "Playing #"
 end
 
 def exit_jukebox
