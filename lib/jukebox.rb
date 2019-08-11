@@ -27,10 +27,10 @@ def play(songs)
       puts "Please enter a valid song"
     end
   else
-    song = songs[input]
+    song = songs[input-1]
   end
   
-  puts "Playing #"
+  puts "Playing #{song}"
 end
 
 def exit_jukebox
