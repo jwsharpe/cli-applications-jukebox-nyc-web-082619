@@ -27,7 +27,7 @@ def play(songs)
       puts "Please enter a valid song"
     end
   else
-    song = songs[input-1]
+    song = songs[input.to_i-1]
   end
   puts "Playing #{song}"
 end
