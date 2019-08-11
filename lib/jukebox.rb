@@ -13,7 +13,9 @@ end
 
 def list_command(list)
   for i in list.length
-    puts "#{i+1}"
+    puts "#{i+1}. #{list[i]}"
+  end
+end
 
  
 puts "Enter your name:"
