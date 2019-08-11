@@ -11,7 +11,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def list_command(list)
+def list(list)
   for i in list.length
     puts "#{i+1}. #{list[i]}"
   end
