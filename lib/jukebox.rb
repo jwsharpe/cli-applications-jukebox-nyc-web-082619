@@ -11,7 +11,8 @@ def help_command
   puts "- exit : exits this program"
 end
 
-
+def list_command(list)
+  for item in list
 
  
 puts "Enter your name:"
