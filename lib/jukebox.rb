@@ -12,7 +12,8 @@ def help_command
 end
 
 def list_command(list)
-  for item in list
+  for item in list do
+    puts ""
 
  
 puts "Enter your name:"
