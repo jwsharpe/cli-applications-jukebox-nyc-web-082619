@@ -1,5 +1,5 @@
 def greeting
-  puts 
+  puts "Please enter a command:"
  
 puts "Enter your name:"
 users_name = gets.strip
