@@ -37,7 +37,7 @@ def exit_jukebox
 end
 
 def invalid
-  puts "Invalid command, try again:"
+  puts "Invalid command, try again."
 end
 
 def run(songs)
