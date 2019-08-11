@@ -23,12 +23,14 @@ def play(songs)
   i = songs.index(input)
   if(i)
     song = songs[i]
-    if(!song)
-      puts "Please enter a valid song"
-    end
-  else
+  elsif(input.to_i-1 > 0)
     song = songs[input.to_i-1]
   end
+  if(!song)
+    puts "Please enter a valid song"
+    return
+  end
+    
   puts "Playing #{song}"
 end
 
