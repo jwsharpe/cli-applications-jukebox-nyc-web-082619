@@ -39,7 +39,9 @@ end
 def run(songs)
   while(true) do
     input = enter_command
-    if(input = "help")
+    if(input == "help")
       help
-    else
+    elsif(input == "list")
+      list(songs)
+    elsif(input == "")
   
