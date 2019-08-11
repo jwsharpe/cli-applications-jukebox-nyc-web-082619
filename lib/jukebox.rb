@@ -5,8 +5,8 @@ end
 
 def help_command
   puts "I accept the following commands:"
-  puts "
-- help : displays this help message"
+  puts "- help : displays this help message"
+  puts ""
 
  
 puts "Enter your name:"
