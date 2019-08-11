@@ -20,7 +20,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
-  if(input.index())
+  if(index())
     song = songs[index.to_i]
   end
   
